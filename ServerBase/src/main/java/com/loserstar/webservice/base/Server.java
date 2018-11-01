@@ -20,6 +20,7 @@ public class Server {
 	 * @param args
 	 */
 	public static void main(String[] args) {
+		//浏览器访问连接查看接口信息http://localhost:8888/loser?wsdl
 		String addr = "http://localhost:8888/loser";
 		Endpoint.publish(addr, new TestServiceImp());
 		System.out.println("started........");

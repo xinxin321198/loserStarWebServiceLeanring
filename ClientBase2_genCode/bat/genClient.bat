@@ -1,0 +1,1 @@
+wsimport -keep -verbose http://localhost:8888/loser?wsdl

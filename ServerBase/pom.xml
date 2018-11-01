@@ -2,9 +2,9 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>1.0.0</modelVersion>
 	<groupId>com.loserstar</groupId>
-	<artifactId>loserStarWebService</artifactId>
+	<artifactId>ServerBase</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>loserStarWebService</name>
+	<name>ServerBase</name>
 	<description>362527240@qq.com</description>
 
 
