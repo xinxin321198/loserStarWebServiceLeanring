@@ -26,7 +26,7 @@ public interface TestService {
 
     /**
      * 
-     * @param arg0
+     * @param a
      * @return
      *     returns java.lang.String
      */
@@ -36,8 +36,8 @@ public interface TestService {
     @ResponseWrapper(localName = "addResponse", targetNamespace = "http://base.webservice.loserstar.com/", className = "com.loserstar.webservice.base.AddResponse")
     @Action(input = "http://base.webservice.loserstar.com/TestService/addRequest", output = "http://base.webservice.loserstar.com/TestService/addResponse")
     public String add(
-        @WebParam(name = "arg0", targetNamespace = "")
-        String arg0);
+        @WebParam(name = "a", targetNamespace = "")
+        String a);
 
     /**
      * 

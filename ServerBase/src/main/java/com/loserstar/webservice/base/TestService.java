@@ -7,6 +7,8 @@
  */
 package com.loserstar.webservice.base;
 
+import javax.jws.WebParam;
+import javax.jws.WebResult;
 import javax.jws.WebService;
 
 /**
@@ -17,6 +19,8 @@ import javax.jws.WebService;
 @WebService
 public interface TestService {
 
+	@WebResult
 	public void tt();
-	public String add(String a);
+	@WebResult
+	public String add(@WebParam(name="a") String a);
 }
