@@ -1,0 +1,3 @@
+# loserStarWebServiceLearning
+webService学习项目
+使用eclipse自带的生成客户端
