@@ -22,7 +22,7 @@ public class TestServiceImpServiceLocator extends org.apache.axis.client.Service
     }
 
     // Use to get a proxy class for TestServiceImpPort
-    private java.lang.String TestServiceImpPort_address = "http://localhost:8880/loser";
+    private java.lang.String TestServiceImpPort_address = "http://localhost:8888/loser";
 
     public java.lang.String getTestServiceImpPortAddress() {
         return TestServiceImpPort_address;
